@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Resume Builder</h1>
+    </header>
+    <main>
+        <!-- Form for user input -->
+        <form id="resumeForm">
+            <!-- Input fields for user details -->
+            <input type="text" id="fullName" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="summary" placeholder="Professional Summary"></textarea>
+            <!-- Input fields for education, experience, skills, etc. -->
+            <!-- These can be dynamic, depending on the user's needs -->
+            <!-- Example -->
+            <input type="text" id="education" placeholder="Education" required>
+            <input type="text" id="experience" placeholder="Experience" required>
+            <input type="text" id="skills" placeholder="Skills" required>
+            <!-- Button to generate resume -->
+            <button type="submit">Generate Resume</button>
+        </form>
+    </main>
+    <footer>
+        <!-- Copyright or other information -->
+        <p>&copy; 2024 Resume Builder</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
